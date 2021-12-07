@@ -26,12 +26,12 @@ import { SearchIcon } from '@heroicons/vue/solid';
 import Dashboard from './components/Dashboard.vue';
 import Sidebar from './components/MySidebar.vue';
 import MobileSidebar from './components/MyMobileSidebar.vue';
-import WhatsNew from './components/WhatsNew.vue';
+import WhatsNew from './components/MyWhatsNew.vue';
 import Products from './components/products/Index.vue';
 import Pages from './components/pages/Index.vue';
 import Navigation from './components/navigation/Index.vue';
 import Settings from './components/settings/Index.vue';
-import PublishBanner from './components/PublishBanner.vue';
+import PublishBanner from './components/MyPublishBanner.vue';
 
 const navigation = [
   { name: 'Dashboard', href: '/', icon: HomeIcon, current: true },
