@@ -1,7 +1,7 @@
 <script>
-import GeneralSettings from './GeneralSettings.vue';
-import CompanySettings from './CompanySettings.vue';
-import BillingSettings from './BillingSettings.vue';
+import GeneralSettings from './MyGeneralSettings.vue';
+import CompanySettings from './MyCompanySettings.vue';
+import BillingSettings from './MyBillingSettings.vue';
 
 const tabs = [
   { name: 'General', component: GeneralSettings },

@@ -1,10 +1,10 @@
 <script>
-import HomePage from './HomePage.vue';
-import AboutPage from './AboutPage.vue';
-import ContactPage from './ContactPage.vue';
-import TermsPage from './TermsPage.vue';
-import PrivacyPage from './PrivacyPage.vue';
-import CookiesPage from './CookiesPage.vue';
+import HomePage from './MyHomePage.vue';
+import AboutPage from './MyAboutPage.vue';
+import ContactPage from './MyContactPage.vue';
+import TermsPage from './MyTermsPage.vue';
+import PrivacyPage from './MyPrivacyPage.vue';
+import CookiesPage from './MyCookiesPage.vue';
 
 const tabs = [
   { name: 'Home Page', component: HomePage },

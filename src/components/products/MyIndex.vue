@@ -1,9 +1,9 @@
 <script>
-  import HideCategories from './HideCategories.vue';
-  import Presentation from './Presentation.vue';
-  import HideBrands from './HideBrands.vue';
-  import HideProductTypes from './HideProductTypes.vue';
-  import HideProducts from './HideProducts.vue';
+  import HideCategories from './MyHideCategories.vue';
+  import Presentation from './MyPresentation.vue';
+  import HideBrands from './MyHideBrands.vue';
+  import HideProductTypes from './MyHideProductTypes.vue';
+  import HideProducts from './MyHideProducts.vue';
 
   const tabs = [
     { name: 'Product Presentation', component: Presentation },

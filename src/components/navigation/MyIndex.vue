@@ -1,7 +1,7 @@
 <script>
-import HeaderOptions from './HeaderOptions.vue';
-import FooterOptions from './FooterOptions.vue';
-import Colours from './Colours.vue';
+import HeaderOptions from './MyHeaderOptions.vue';
+import FooterOptions from './MyFooterOptions.vue';
+import Colours from './MyColours.vue';
 
 const tabs = [
   { name: 'Header Options', component: HeaderOptions },
