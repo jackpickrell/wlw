@@ -27,10 +27,10 @@ import Dashboard from './components/Dashboard.vue';
 import Sidebar from './components/MySidebar.vue';
 import MobileSidebar from './components/MyMobileSidebar.vue';
 import WhatsNew from './components/MyWhatsNew.vue';
-import Products from './components/products/Index.vue';
-import Pages from './components/pages/Index.vue';
-import Navigation from './components/navigation/Index.vue';
-import Settings from './components/settings/Index.vue';
+import Products from './components/products/MyIndex.vue';
+import Pages from './components/pages/MyIndex.vue';
+import Navigation from './components/navigation/MyIndex.vue';
+import Settings from './components/settings/MyIndex.vue';
 import PublishBanner from './components/MyPublishBanner.vue';
 
 const navigation = [
