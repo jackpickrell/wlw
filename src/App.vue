@@ -27,7 +27,7 @@ import Dashboard from './components/Dashboard.vue';
 import Sidebar from './components/Sidebar.vue';
 import MobileSidebar from './components/MobileSidebar.vue';
 import WhatsNew from './components/WhatsNew.vue';
-import Products from './components/products/index.vue';
+import Products from './components/products/Index.vue';
 import Pages from './components/pages/Index.vue';
 import Navigation from './components/navigation/Index.vue';
 import Settings from './components/settings/Index.vue';
