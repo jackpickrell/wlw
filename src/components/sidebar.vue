@@ -1,5 +1,6 @@
 <script>
   export default {
+    name: 'Sidebar',
     props: ['navigation', 'secondaryNavigation', 'currentRoute'],
     return: {}
   }
