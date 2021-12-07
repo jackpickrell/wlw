@@ -23,7 +23,7 @@ import {
 } from '@heroicons/vue/outline';
 import { SearchIcon } from '@heroicons/vue/solid';
 
-import Dashboard from './components/Dashboard.vue';
+import MyDashboad from './components/MyDashboad.vue';
 import Sidebar from './components/Sidebar.vue';
 import MobileSidebar from './components/MobileSidebar.vue';
 import WhatsNew from './components/WhatsNew.vue';
@@ -34,7 +34,7 @@ import Settings from './components/settings/Index.vue';
 import PublishBanner from './components/PublishBanner.vue';
 
 const navigation = [
-  { name: 'Dashboard', href: '/', icon: HomeIcon, current: true },
+  { name: 'MyDashboad', href: '/', icon: HomeIcon, current: true },
   { name: "What's New?", href: '/new', icon: NewspaperIcon, current: false },
   {
     name: 'Products & Categories',
@@ -62,7 +62,7 @@ const published = false;
 
 <script>
 const routes = {
-  '/': Dashboard,
+  '/': MyDashboad,
   '/new': WhatsNew,
   '/products': Products,
   '/pages': Pages,

@@ -54,7 +54,7 @@ const actions = [
 ];
 
 export default {
-  name: 'Dashboard',
+  name: 'MyDashboad',
   setup() {
     return {
       actions,
